@@ -1,0 +1,26 @@
+_________________________________GIT WORKFLOT_______________________________________________________________________________________________________
+
+
+lorsqu'on s'assigne sur un nouveau ticket voici le workflot mis en place pour git.
+
+1)Pointer sur la branche master (cmd : git checkout master)
+
+2)Mettre à jour notre branche master (cmd : git pull origin  master)
+
+3)Créer notre nouvelle branche avec la règle de nommage [bug-n°ticket] (cmd : git checkout -b bug-n°ticket)
+
+_____________________________________________________________________________________________________________________________________________________
+
+4)Ajouter les fichiers modifiés lors de ta correction (cmd : git add "nom du fichier")
+
+5)Faire le commit (cmd : git commit -m ":emoji: Module/add-ons - Description (close # n°ticket)")
+
+6)Basculer à nouveau sur la branche master  (cmd : git checkout master)
+
+7)Mettre à jour notre branche master (cmd : git pull origin  master)
+
+8)Retourner sur la branche ou se trouve la correction du bug (cmd : git checkout bug-n°ticket)
+
+9)Appliquer les modiffications de la branche master (cmd : git rebase master)
+
+10)Envoyer les correctif au serveur (cmd : git push origin  bug-n°ticket)

@@ -1,0 +1,92 @@
+sed -i -- 's/Ã©/é/g' csvchar.csv
+sed -i -- 's/Ã¨/è/g' csvchar.csv
+sed -i -- 's/Ã /à/g' csvchar.csv
+sed -i -- 's/Ã§/ç/g' csvchar.csv
+sed -i -- 's/Ã´/ô/g' csvchar.csv
+sed -i -- 's/Ãª/ê/g' csvchar.csv
+sed -i -- 's/Ã¯/ï/g' csvchar.csv
+sed -i -- 's/?®/e/g' csvchar.csv
+sed -i -- 's/?ë/e/g' csvchar.csv
+sed -i -- 's/Ã‰/e/g' csvchar.csv
+
+sed -i -- 's/Ã¢/a/g' csvchar.csv
+sed -i -- 's/Ã«/e/g' csvchar.csv
+sed -i -- 's/Ã£Â©/e/g' csvchar.csv
+sed -i -- 's/Ã‡//g' csvchar.csv
+sed -i -- 's/Ã³/o/g' CMD1-ATK-WEEDOIT-07072022.xlsx
+
+sed -i -- 's/%C3%A9/é/g' csvchar.csv
+sed -i -- 's/%C3%A8/è/g' csvchar.csv
+sed -i -- 's/%C3%A0/à/g' csvchar.csv
+sed -i -- 's/%C3%A7/ç/g' csvchar.csv
+sed -i -- 's/%C3%B4/ô/g' csvchar.csv
+sed -i -- 's/%C3%AA/ê/g' csvchar.csv
+sed -i -- 's/+/ /g' csvchar.csv
+sed -i -- 's/%2F/-/g' csvchar.csv
+sed -i -- 's/%40/@/g' csvchar.csv
+sed -i -- 's/%5B%5D/ /g' csvchar.csv
+sed -i -- 's/%2C/./g' csvchar.csv
+
+sed -i -- 's/Ã©/é/g' export7.csv
+sed -i -- 's/Ã¨/è/g' export7.csv
+sed -i -- 's/Ã /à/g' export7.csv
+sed -i -- 's/Ã§/ç/g' export7.csv
+sed -i -- 's/Ã´/ô/g' export7.csv
+sed -i -- 's/Ãª/ê/g' export7.csv
+
+sed -i -- 's/Ã¨/è/g' export7.csv
+sed -i -- 's/Ã/a/g' export7.csv
+sed -i -- 's/Ãª/ê/g' export7.csv
+
+
+sed -i -- 's/%C3%A9/é/g' export7.csv
+sed -i -- 's/%C3%A8/è/g' export7.csv
+sed -i -- 's/%C3%A0/à/g' export7.csv
+sed -i -- 's/%C3%A7/ç/g' export7.csv
+sed -i -- 's/%C3%B4/ô/g' export7.csv
+sed -i -- 's/%C3%AA/ê/g' export7.csv
+sed -i -- 's/+/ /g' export7.csv
+sed -i -- 's/%2F/-/g' export7.csv
+sed -i -- 's/%40/@/g' export7.csv
+sed -i -- 's/%5B%5D/ /g' export7.csv
+sed -i -- 's/%2C/./g' export7.csv
+
+sed -i -- 's/Ã?Â©/à/g' export7.csv
+sed -i -- 's/Ã?Â/à/g' export7.csv
+sed -i -- 's/Ã?/é/g' export7.csv
+
+sed -i -- 's/Ã?Â©/à/g' export7.csv
+sed -i -- 's/Ã?Â©/à/g' export7.csv
+sed -i -- 's/Ã?Â©/à/g' export7.csv
+sed -i -- 's/Ã?Â©/à/g' export7.csv
+sed -i -- 's/Ã?Â©/à/g' export7.csv
+sed -i -- 's/Ã?Â©/à/g' export7.csv
+
+Ã?Â© => é
+ Ã? => é
+Ã?Æ? => é
+Â© => é
+Ã?Æ?éÂ© => é
+Ã?Â¢ =>â
+Ã?Â§ =>ç
+éÂ© =>
+Ã‰
+éâ?° => é
+éÂ =>a
+?e => ée
+Ì© => é
+Ã‰ => é
+Ã§ =>ç
+Ã« => e
+â€™ => ""
+Ã¨ => e
+Ã´=> e
+Ã€ => a
+â€˜a => a
+split -l 200000 originedatadeal.csv new  
+cat file1.csv file2.csv > outputfile.csv
+
+walimove@gmail.com
+
+datadeal :
+https://www.datadeal.fr/backoffice/cron/analyseEnhancementCSVFileTEL.php?file_id=1049
